@@ -9,4 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary = "My new Manyfold plugin"
   spec.description = "A longer description of what your plugin is all about"
   spec.license = "CC0 1.0"
+  spec.metadata = {
+    "manyfold_version" => ">= 0.146.0",
+  }
 end
